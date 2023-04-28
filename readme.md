@@ -34,7 +34,7 @@ Users can view their own profile and edit their profile information. They can al
 
 To install the Social Media platform, follow the steps below:
 
-1. Clone this repository: `git clone https://github.com/ErickElc/SocialMedia.git`
+1. Clone this repository: `git clone https://github.com/LuTsl/SocialMedia.git`
 
 2. Enter the project folder: `cd SocialMedia`
 
