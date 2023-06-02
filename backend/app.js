@@ -27,4 +27,3 @@ db.once("open", () => {
 });
 
 module.exports = app;
-module.exports.handler = serverless(app);
