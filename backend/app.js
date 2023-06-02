@@ -12,6 +12,7 @@ app.use("/", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 app.use(express.json());
 app.use(cors());
 routes(app);
+
 if (process.env.NODE_ENV !== "test") {
   app.listen(PORT, () => {
     console.log(`Servidor rodando na porta ${PORT}`);
@@ -26,3 +27,4 @@ db.once("open", () => {
 });
 
 module.exports = app;
+module.exports.handler = serverless(app);

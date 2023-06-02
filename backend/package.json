@@ -7,6 +7,7 @@
     "test": "jest ./src/tests  --verbose ",
     "dev": "nodemon app.js",
     "start": "node app.js",
+    "build": "netlify deploy --prod",
     "swagger-autogen": "node swagger.js"
   },
   "keywords": [],
